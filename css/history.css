@@ -241,7 +241,7 @@ p.s-text, .wysiwyg ul.s-text, .maps-list-item .openhours p, .maps-list-item .ope
     background: white;
 }
 
-.entermyhomepage,.entermyhomepagemobile {
+.entermyhomepage {
    float:right;
    color: white;
    width: 100px;
@@ -249,9 +249,19 @@ p.s-text, .wysiwyg ul.s-text, .maps-list-item .openhours p, .maps-list-item .ope
    text-align:center;
    background-color:black;
 }
+.entermyhomepagemobile  {
+   float:right;
+   color: white;
+   width: 100px;
+   padding-bottom:20px;
+   text-align:center;
+   background-color:black;
+   display:none;
+}
  .circle{   display:none; width: 50%;      height: auto;      background-color:black;      border-radius: 50%;      -moz-border-radius: 50%;      -webkit-border-radius: 50%;  margin: 50px auto;   } 
 .mobiletitle {
 text-align: center;
+display:none;
 }
 @media screen and (max-width:1130px){
 .columns {
@@ -273,4 +283,5 @@ text-align: center;
    
 }
 .circle{   display:inherit;}
+.mobiletitle {   display:inherit;}
 }
