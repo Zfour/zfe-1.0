@@ -241,3 +241,29 @@ p.s-text, .wysiwyg ul.s-text, .maps-list-item .openhours p, .maps-list-item .ope
     background: white;
 }
 
+.entermyhomepage{
+   float:right;
+   color: white;
+   width: 100px;
+   padding-bottom:20px;
+   text-align:center;
+   background-color:black;
+}
+ .circle{   display:none; width: auto;      height: auto;      background-color:black;      border-radius: 50%;      -moz-border-radius: 50%;      -webkit-border-radius: 50%;  margin: 50px auto;   } 
+
+@media screen and (max-width:1130px){
+.columns {
+  display:none;
+}
+.entermyhomepage {
+    
+   width: 100%;
+   
+}
+.site {
+    
+   height: 100%;
+   
+}
+.circle{   display:inherit;}
+}
