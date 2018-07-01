@@ -8,7 +8,7 @@
 <title>时钟——时间轴</title>
  
 <link rel='stylesheet'  href='css/history.css' type='text/css' media='all' />
- 
+ <link href="css/clock.css" rel="stylesheet">
 <script type='text/javascript' src="js/jquery.min.js"></script>
 <script type='text/javascript' src='js/lodash.js'></script>
 <script type='text/javascript' src='js/TweenMax.min.js'></script>
@@ -44,12 +44,25 @@ function preload_images(images, functions) {
 
 <body >
 <div id="page" class="site">
+
+<div  class="mobiletitle">
+	
+	<div id="clock">
+                         <br>
+						 <br>
+						 <br>
+						 <br>
+						 <br>
+						 <br>
+						 <p class="date"><i class="fa fa-calendar-o   fa-fw"></i>{{ date }}</p>
+                          <p class="time">{{ time }}</p>
+                         </div> 
+                     <br>  
+	<h1><br> <img src="avatar.png" class="js-avatar circle"><br><b>欢迎来到Z_4的blog！<b/></h1>
+	</div>
   <div id="content" class="site-content">
     <div class="content-block history">
-	<div  class="mobiletitle">
-	<img src="avatar.png" class="js-avatar circle">
-	<h1>这里是Z_4的blog</h1>
-	</div>
+	
       <div class="content-wrap small-wrap vert-spaced lined">
          
 			
@@ -141,8 +154,9 @@ var _history_data = [
 /* ]]> */
 </script> 
 <script type='text/javascript' src='js/page_about.js'></script>
-    <script opacity='0.7' zIndex="-2" count="99" src="background/dist/canvas-nest.js"></script>
-	
+    <script opacity='0.5'  count="150" src="background/dist/canvas-nest.js"></script>
+	<script type='text/javascript' src='js/vue.min.js'></script>
+	<script type='text/javascript' src='js/clock.js'></script>
 	
 </body>
 

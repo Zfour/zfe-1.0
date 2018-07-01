@@ -1,0 +1,19 @@
+#clock .date {
+    font-size: 35px;
+   
+    color: black; 
+    font-family:unidreamled
+}
+
+#clock .time {
+    font-size: 80px;
+     
+    color: black ;
+    font-family:unidreamled
+}
+
+@font-face
+{
+font-family: unidreamled;
+src: url(UnidreamLED.ttf);
+}
