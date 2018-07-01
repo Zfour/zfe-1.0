@@ -249,7 +249,7 @@ p.s-text, .wysiwyg ul.s-text, .maps-list-item .openhours p, .maps-list-item .ope
    text-align:center;
    background-color:black;
 }
- .circle{   display:none; width: auto;      height: auto;      background-color:black;      border-radius: 50%;      -moz-border-radius: 50%;      -webkit-border-radius: 50%;  margin: 50px auto;   } 
+ .circle{   display:none; width: 50%;      height: auto;      background-color:black;      border-radius: 50%;      -moz-border-radius: 50%;      -webkit-border-radius: 50%;  margin: 50px auto;   } 
 
 @media screen and (max-width:1130px){
 .columns {
