@@ -241,7 +241,7 @@ p.s-text, .wysiwyg ul.s-text, .maps-list-item .openhours p, .maps-list-item .ope
     background: white;
 }
 
-.entermyhomepage{
+.entermyhomepage,.entermyhomepagemobile {
    float:right;
    color: white;
    width: 100px;
@@ -250,15 +250,22 @@ p.s-text, .wysiwyg ul.s-text, .maps-list-item .openhours p, .maps-list-item .ope
    background-color:black;
 }
  .circle{   display:none; width: 50%;      height: auto;      background-color:black;      border-radius: 50%;      -moz-border-radius: 50%;      -webkit-border-radius: 50%;  margin: 50px auto;   } 
-
+.mobiletitle {
+text-align: center;
+}
 @media screen and (max-width:1130px){
 .columns {
   display:none;
 }
 .entermyhomepage {
     
-   width: 100%;
+   display:none;
    
+}
+.entermyhomepagemobile {
+    
+   display:inherit;
+    width: 100%;
 }
 .site {
     
