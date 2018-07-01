@@ -258,7 +258,7 @@ p.s-text, .wysiwyg ul.s-text, .maps-list-item .openhours p, .maps-list-item .ope
    background-color:black;
    display:none;
 }
- .circle{   display:none;       height:50px;      background-color:black;      border-radius: 50%;      -moz-border-radius: 50%;      -webkit-border-radius: 50%;  margin: 0px auto;   } 
+ .circle{   display:none;   border:1px;    height:50px;      background-color:black;      border-radius: 50%;      -moz-border-radius: 50%;      -webkit-border-radius: 50%;  margin: 0px auto;   } 
 .mobiletitle {
 text-align: center;
 display:none;
